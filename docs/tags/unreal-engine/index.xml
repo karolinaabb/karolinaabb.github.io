@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unreal Engine on Karolina Boroń - Portfolio</title>
+    <link>https://karolinaabb.github.io/tags/unreal-engine/</link>
+    <description>Recent content in Unreal Engine on Karolina Boroń - Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language><atom:link href="https://karolinaabb.github.io/tags/unreal-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interaktywny poziom gry</title>
+      <link>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/Unreal-thumb_hu_a54973a2078c4501.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/Unreal-thumb_hu_a54973a2078c4501.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

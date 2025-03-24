@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Krita on Karolina Boroń - Portfolio</title>
+    <link>https://karolinaabb.github.io/tags/krita/</link>
+    <description>Recent content in Krita on Karolina Boroń - Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language><atom:link href="https://karolinaabb.github.io/tags/krita/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rysunek cyfrowy</title>
+      <link>https://karolinaabb.github.io/rysunek-cyfrowy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://karolinaabb.github.io/rysunek-cyfrowy/</guid><media:content url="https://karolinaabb.github.io/rysunek-cyfrowy/B001_hu_cbc7675bf899bd74.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://karolinaabb.github.io/rysunek-cyfrowy/B001_hu_cbc7675bf899bd74.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Gra mobilna - pixel art, side-scroll</title>
+      <link>https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/AX000_hu_5051e27b8889f92f.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/AX000_hu_5051e27b8889f92f.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
