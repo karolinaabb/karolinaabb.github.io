@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on Karolina Boroń - Portfolio</title>
+    <link>https://karolinaabb.github.io/tags/unity/</link>
+    <description>Recent content in Unity on Karolina Boroń - Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language><atom:link href="https://karolinaabb.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gra komputerowa - licencjat</title>
+      <link>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-licencjat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-licencjat/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-licencjat/HX001_hu_a9b8363a4572e70c.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-licencjat/HX001_hu_a9b8363a4572e70c.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Poziom gry w Unity</title>
+      <link>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/UN001_hu_a08a4c2f5c39cde5.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/UN001_hu_a08a4c2f5c39cde5.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

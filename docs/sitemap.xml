@@ -2,23 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-licencjat/</loc>
+  </url><url>
     <loc>https://karolinaabb.github.io/projektowanie-gier/gra-planszowa/</loc>
-  </url><url>
-    <loc>https://karolinaabb.github.io/rysunek-cyfrowy/</loc>
-  </url><url>
-    <loc>https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/projektowanie-graficzne/zine-kot/</loc>
   </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-graficzne/zuzanna-rogatty-publikacja/</loc>
+    <loc>https://karolinaabb.github.io/rysunek-cyfrowy/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/rysunek-tradycyjny/</loc>
   </url><url>
+    <loc>https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-stron/czysty-las/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/hobby/filcowe-pluszaki/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-graficzne/identyfikacja-wizualna-piwet/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/grafika-3d/projekt-postaci/</loc>
+  </url><url>
     <loc>https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/grafika-3d/render-pokoju/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-graficzne/zuzanna-rogatty-publikacja/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-graficzne/portrety-wektorowe/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/grafika-3d/animacja/</loc>
   </url><url>
-    <loc>https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/</loc>
+    <loc>https://karolinaabb.github.io/projektowanie-stron/eduo/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-stron/omni/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/projektowanie-graficzne/kazuar-piktogram/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/grafika-3d/</loc>
   </url><url>
@@ -38,31 +64,15 @@
   </url><url>
     <loc>https://karolinaabb.github.io/tags/blender/</loc>
   </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-stron/czysty-las/</loc>
-  </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-stron/eduo/</loc>
-  </url><url>
     <loc>https://karolinaabb.github.io/tags/figma/</loc>
-  </url><url>
-    <loc>https://karolinaabb.github.io/hobby/filcowe-pluszaki/</loc>
-  </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/categories/grafika-3d/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/categories/hobby/</loc>
   </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/</loc>
-  </url><url>
     <loc>https://karolinaabb.github.io/tags/krita/</loc>
   </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-stron/omni/</loc>
-  </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-graficzne/kazuar-piktogram/</loc>
-  </url><url>
     <loc>https://karolinaabb.github.io/</loc>
-  </url><url>
-    <loc>https://karolinaabb.github.io/projektowanie-graficzne/portrety-wektorowe/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/categories/projektowanie-gier/</loc>
   </url><url>
@@ -70,9 +80,9 @@
   </url><url>
     <loc>https://karolinaabb.github.io/categories/projektowanie-stron-i-ui/</loc>
   </url><url>
-    <loc>https://karolinaabb.github.io/grafika-3d/render-pokoju/</loc>
-  </url><url>
     <loc>https://karolinaabb.github.io/tags/</loc>
+  </url><url>
+    <loc>https://karolinaabb.github.io/tags/unity/</loc>
   </url><url>
     <loc>https://karolinaabb.github.io/tags/unreal-engine/</loc>
   </url>
