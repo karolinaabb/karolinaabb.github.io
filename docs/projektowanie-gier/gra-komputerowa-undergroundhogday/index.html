@@ -1,0 +1,1461 @@
+<!doctype html>
+<html class="dark"
+  lang="pl">
+<head>
+  <meta name="dateGenerated" content="2026-05-22 00:51:49.143118794 &#43;0200 CEST m=&#43;0.271371566" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Gra komputerowa - UndergroundHog Day - Karolina Boroń - Portfolio</title>
+  <link rel="canonical" href="https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-undergroundhogday/" />
+  <link rel="icon" type="image/svg+xml" href="/logo-v2.svg" /><script defer type="module">
+    import { DotLottie } from 'https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web@0.73.0/+esm';
+
+    
+    const canvas = document.createElement('canvas');
+    
+    let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    function applyTheme() {
+      isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      updateFavicon();
+      
+      
+      
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      applyTheme();
+    });
+    canvas.width = 64;
+    canvas.height = 64;
+    const ctx = canvas.getContext('2d');
+
+    
+    let faviconLink = document.querySelector("link[rel='icon']");
+    if (!faviconLink) {
+      faviconLink = document.createElement('link');
+      faviconLink.rel = 'icon';
+      document.head.appendChild(faviconLink);
+    }
+    let faviconLinkOriginal = faviconLink.cloneNode();
+
+    function updateFavicon() {
+      
+      
+      
+      
+      
+      
+      if (isDark) {
+        ctx.filter = 'invert(1)';
+        ctx.drawImage(canvas, 0, 0);
+      }
+      canvas.toBlob(function (blob) {faviconLink.href = URL.createObjectURL(blob);}, 'image/png');
+      
+
+
+    }
+
+    
+    
+    
+
+    const dotLottie = new DotLottie({
+      canvas: canvas,
+      src: "/favicon-animated.lot.json",
+      
+      autoplay: false,
+      loop: false,
+      
+    })
+    window.dotLottie = dotLottie;
+    dotLottie.addEventListener('load', () => {
+      dotLottie.setFrame(0);
+      updateFavicon();
+    });
+
+    let isPlaying = false;
+    let animFrameId = null;
+
+    let lastUpdate = 0;
+    const fps = 30; 
+    const fpsInterval = 1000 / fps;
+
+    function startAnimationLoop() {
+      if (isPlaying) return;
+      isPlaying = true;
+      faviconLink.type = "image/png";
+
+      function loop(timestamp) {
+        animFrameId = requestAnimationFrame(loop);
+
+        const elapsed = timestamp - lastUpdate;
+        
+        if (elapsed > fpsInterval) {
+          lastUpdate = timestamp - (elapsed % fpsInterval);
+          updateFavicon();
+        }
+      }
+      loop();
+    }
+
+    function stopAnimationLoop() {
+      isPlaying = false;
+      if (animFrameId) {
+        cancelAnimationFrame(animFrameId);
+        animFrameId = null;
+      }
+    }
+
+    
+    setTimeout(() => { dotLottie.play(); }, 6000);
+
+    
+    dotLottie.addEventListener('play', () => {
+      startAnimationLoop();
+    });
+
+    dotLottie.addEventListener('complete', () => {
+      stopAnimationLoop();
+      updateFavicon();
+      setTimeout(() => {faviconLink.replaceWith(faviconLinkOriginal);}, 500);
+    });
+</script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <meta name="description" content="Portfolio Karoliny Boroń" />
+  
+  
+    <meta name="robots" content="index, follow" />
+  
+  <meta property="og:url" content="https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-undergroundhogday/" />
+  <meta property="og:site_name" content="Karolina Boroń - Portfolio">
+  <meta property="og:title" content="Gra komputerowa - UndergroundHog Day">
+  <meta property="og:description" content="Portfolio Karoliny Boroń">
+  <meta property="og:locale" content="pl">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projektowanie-gier">
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <meta property="og:image" content="https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_c25bd069030124fd.jpg" />
+  
+  <link rel="stylesheet" href="/css/main.min.fc20076538fb8afdedaa5789354bffd51be8ff599fcf2880cc0d852cdcfa5164.css" />
+  
+  
+  <script src="/js/main.c6580346466f0a08c287801929db96c1d5412824532524064e6b2b5238ac64dd.js" defer></script>
+
+<script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_3aYbP6w992EQBkXkVLpj6NlpAVBcMp2sbIpcfArbk0H', {
+        api_host: 'https://eu.i.posthog.com',
+        person_profiles: 'always',
+    })
+</script></head>
+
+
+
+
+<body class="">
+  <header>
+  
+    <a class="btn btn-square" href="/projektowanie-gier/" title="">
+      <svg width="24" height="24" data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"></path>
+      </svg>
+    </a>
+  
+  
+    
+  
+</header>
+
+  <menu class="hidden" id="menu">
+    
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="/" itemprop="url">
+          <span itemprop="name">Home</span>
+        </a>
+      </li>
+    
+  </menu>
+
+
+
+  <div class="row container">
+    <div class="col sidebar sidebar-left">
+      <div class="ribbon"></div>
+<div>
+    <center class="avatar">
+    <a href="/">
+        <img src="/images/avatar-new.png" width="130" class="avatar-img" alt="Avatar">
+    <h1>Karolina Boroń</h1>
+</a>
+    
+    
+</center>
+
+    <div class="description collapsible-content">
+        <center class="location">
+    <a href="https://pl.wikipedia.org/wiki/Bielsko-Bia%C5%82a"><b>Bielsko-Biała</b></a><br />
+    Województwo śląskie <br />
+    <i>Polska</i>
+</center>
+<div class="education">
+    <h2 class="title"> <svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 640 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg> Wykształcenie:</h2>
+    <div class="schools">
+        <div class="school">
+            <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160l0 8c0 13.3 10.7 24 24 24l400 0c13.3 0 24-10.7 24-24l0-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224l-64 0 0 196.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512l448 0c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1L448 224l-64 0 0 192-40 0 0-192-64 0 0 192-48 0 0-192-64 0 0 192-40 0 0-192zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> Magister – projektowanie gier i&nbsp;przestrzeni wirtualnej</h3>
+            <p class="text-sm">2025 – obecnie</p>
+            <p class="school-name">
+                <a class="link" href="https://studiujwcieszynie.pl/">
+                    Uniwersytet Śląski w Katowicach (filia w Cieszynie)
+                </a>
+            </p>
+            <p class="school-spec">
+                Specjalizacja: animacja
+            </p>
+        </div>
+        <div class="school">
+            <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160l0 8c0 13.3 10.7 24 24 24l400 0c13.3 0 24-10.7 24-24l0-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224l-64 0 0 196.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512l448 0c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1L448 224l-64 0 0 192-40 0 0-192-64 0 0 192-48 0 0-192-64 0 0 192-40 0 0-192zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> Licencjat – gry i&nbsp;grafika interaktywna</h3>
+            <p class="text-sm">2022 – 2025</p>
+            <p class="school-name">
+                <a class="link" href="https://www.gwsp.edu.pl/">
+                    Górnośląska Wyższa Szkoła Przedsiębiorczości im. Karola Goduli w Chorzowie
+                </a>
+            </p>
+            <p class="school-spec">
+                Specjalizacja: projektowanie graficzne, projektowanie gier
+            </p>
+        </div>
+        <div class="school">
+            <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 640 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M337.8 5.4C327-1.8 313-1.8 302.2 5.4L166.3 96 48 96C21.5 96 0 117.5 0 144L0 464c0 26.5 21.5 48 48 48l208 0 0-96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 96 208 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L473.7 96 337.8 5.4zM96 192l32 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-64zM96 320l32 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm400 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-64zM232 176a88 88 0 1 1 176 0 88 88 0 1 1 -176 0zm88-48c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-16c0-8.8-7.2-16-16-16z"/></svg> Technik grafiki i&nbsp;poligrafii cyfrowej
+            </h3>
+            <p class="text-sm">2017 – 2021</p>
+            <p class="school-name">
+                <a class="link" href="https://bsp.edu.pl/">
+                    Bielska Szkoła Przemysłowa
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="education">
+    <h2 class="title"> <svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 576 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M0 80C0 53.5 21.5 32 48 32l96 0c26.5 0 48 21.5 48 48l0 16 192 0 0-16c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-16-192 0 0 16c0 1.7-.1 3.4-.3 5L272 288l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-1.7 .1-3.4 .3-5L144 224l-96 0c-26.5 0-48-21.5-48-48L0 80z"/></svg> Szkolenia:</h2>
+    <div class="schools">
+        <div class="school">
+            <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3L344 320c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM288 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg> Kurs rysunku</h3>
+            <p class="years">2021 - 2022</p>
+            <p class="school-name">
+                <a class="link" href="https://www.kursypencil.pl/">
+                    Kursy Pencil Bielsko-Biała
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="education">
+    <h2 class="title"> <svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z"/></svg> Doświadczenie zawodowe:</h2>
+    <div class="schools">
+        <div class="school multi-spacing">
+            <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M0 32C0 14.3 14.3 0 32 0L160 0c17.7 0 32 14.3 32 32l0 384c0 53-43 96-96 96s-96-43-96-96L0 32zM223.6 425.9c.3-3.3 .4-6.6 .4-9.9l0-262 75.4-75.4c12.5-12.5 32.8-12.5 45.3 0l90.5 90.5c12.5 12.5 12.5 32.8 0 45.3L223.6 425.9zM182.8 512l192-192L480 320c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-297.2 0zM128 64L64 64l0 64 64 0 0-64zM64 192l0 64 64 0 0-64-64 0zM96 440a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/></svg> Praktyki zawodowe</h3>
+          
+          
+            <p class="years">2026</p>
+            <p class="school-name">
+                <a class="link" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/">
+                    GameJam "Juśt Transition"
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Tworzenie <br/> prototypu gry  <br/>
+                komputerowej
+            </p>
+            
+            <p class="years">2025</p>
+            <p class="school-name">
+                <a class="link" href="/projektowanie-gier/gra-komputerowa-deadfound/">
+                    GameJam "Juśt Transition"
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Tworzenie <br/> prototypu gry  <br/>
+                komputerowej
+            </p>
+        
+
+            <p class="years">2025</p>
+            <p class="school-name">
+                <a class="link" href="">
+                    Hegemon Shop
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Projektowanie i&nbsp;przygotowywanie do druku  <br/>
+                materiałów promocyjnych
+            </p>  
+
+            
+            <p class="years">2024</p>
+            <p class="school-name">
+                <a class="link" href="">
+                    GRAmel Books
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Tłumaczenie <br/> i&nbsp;korekta tekstów gry  <br/>
+               na język angielski
+            </p>  
+
+            
+            <p class="years">2019</p>
+            <p class="school-name">
+                <a class="link" href="">
+                    Mediagraf
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: projektowanie i&nbsp;personalizacja gadżetów, <br/>
+                wykonywanie nadruków termotransferowych
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+    </div>
+
+    <input id="collapsible" class="collapsible-toggle" type="checkbox" autocomplete="off">
+    <label for="collapsible" class="collapsible-label"><div><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 384 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></div></label>
+</div>
+<script>
+  var isHome = false;
+  setTimeout(function () {
+    if (isHome && window.innerWidth >= 1200) {
+      document.getElementById('collapsible').checked = true;
+    }
+  }, 200);
+</script>
+
+    </div>
+    <main class="col-6">
+      
+  
+  <hgroup class="title">
+    <h1><a href="/projektowanie-gier/gra-komputerowa-undergroundhogday/">Gra komputerowa - UndergroundHog Day</a></h1>
+    
+    
+    
+    
+  </hgroup>
+
+
+  
+
+  <nav class="categories">
+    <ul>
+      
+        <li class=""><a  href="/categories/animacja/">Animacja</a></li>
+      
+        <li class=""><a  href="/categories/grafika-3d/">Grafika 3D</a></li>
+      
+        <li class=""><a  href="/categories/hobby/">Hobby</a></li>
+      
+        <li class="nav-active"><a  href="/categories/projektowanie-gier/">Projektowanie gier</a></li>
+      
+        <li class=""><a  href="/categories/projektowanie-graficzne/">Projektowanie graficzne</a></li>
+      
+        <li class=""><a  href="/categories/projektowanie-stron-i-ui/">Projektowanie stron i UI</a></li>
+      
+      
+        
+        <li class=""><a  href="/rysunek-tradycyjny/">Rysunek tradycyjny</a></li>
+      
+        
+        <li class=""><a  href="/rysunek-cyfrowy/">Rysunek cyfrowy</a></li>
+      
+    </ul>
+  </nav>
+
+  
+  
+    
+    <section class="prose">
+      <p>Gra powstała na GameJamie „Juśt Transition”.<br>
+Tematyka warsztatów: „Implementacja sesji Motion Capture w silniku gry”</p>
+<p>Opis gry: W postapokaliptycznym bunkrze wszyscy mieszkańcy giną, a ty zostajesz zamordowany jako ostatni. Chwilę później budzisz się na początku tego samego dnia. Uwięziony w pętli czasu musisz odkryć, kto jest mordercą, zanim historia ponownie zakończy się tragicznie.</p>
+<p>Oprócz współpracy z zespołem i udziału w burzy mózgów byłam odpowiedzialna za projektowanie i tworzenie postaci w stylu low poly 3D w blenderze, teksturowanie postaci, implementację w silniku assetów, systemu cząsteczek i pixelowego post-processu.</p>
+<p>Współtwórcy gry:<br>
+Alicja Guzik<br>
+Dominika Skoczylas<br>
+Iga Dąbrowska<br>
+Aleksandra Zawadka<br>
+Tereza Marszalková<br>
+Manuela Krzysztofik<br>
+Julia Cieślar<br>
+Paulina Kopeć<br>
+Maciej Stachańczyk<br>
+Michał Konieczny<br>
+Denys Hvozdetskyi</p>
+<p><video controls preload="auto"   playsinline class="html-video">
+    <source src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH002.mp4" type="video/mp4">
+  <span></span>
+</video><br>
+<video controls preload="auto"   playsinline class="html-video">
+    <source src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH003.mp4" type="video/mp4">
+  <span></span>
+</video></p>
+
+    </section>
+    
+  
+  <section class="gallery">
+  <div id="gallery" style="visibility: hidden; height: 1px; overflow: hidden">
+    
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+    
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_760f1e719c733107.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_760f1e719c733107.jpg" data-pswp-width="1919" data-pswp-height="1085" data-pswp-target="ugh001.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 339">
+          <figure style=" aspect-ratio: 600 / 339">
+            <img class="lazyload" width="600" height="339" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_598c361f58433507.png" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_760f1e719c733107.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH004_hu_c9717bd53cb6bc18.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH004_hu_c9717bd53cb6bc18.jpeg" data-pswp-width="1555" data-pswp-height="1034" data-pswp-target="ugh004.jpeg" title="Moodboard gry" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 399">
+          <figure style=" aspect-ratio: 600 / 399">
+            <img class="lazyload" width="600" height="399" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH004_hu_bca459b07ed164c6.jpeg" alt="Moodboard gry" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH004_hu_c9717bd53cb6bc18.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH005_hu_48b3bca608d7c0a6.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH005_hu_48b3bca608d7c0a6.jpg" data-pswp-width="1560" data-pswp-height="594" data-pswp-target="ugh005.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 228">
+          <figure style=" aspect-ratio: 600 / 228">
+            <img class="lazyload" width="600" height="228" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH005_hu_8153e56672001a15.png" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH005_hu_48b3bca608d7c0a6.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH006_hu_3b5aa0e47cf30a6b.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH006_hu_3b5aa0e47cf30a6b.jpg" data-pswp-width="930" data-pswp-height="847" data-pswp-target="ugh006.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 546">
+          <figure style=" aspect-ratio: 600 / 546">
+            <img class="lazyload" width="600" height="546" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH006_hu_a1c2c500a1e5ad25.png" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH006_hu_3b5aa0e47cf30a6b.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH007_hu_fd5c7ebd0d005d86.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH007_hu_fd5c7ebd0d005d86.jpeg" data-pswp-width="1563" data-pswp-height="947" data-pswp-target="ugh007.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 364">
+          <figure style=" aspect-ratio: 600 / 364">
+            <img class="lazyload" width="600" height="364" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH007_hu_622ef31c7ca52de7.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH007_hu_fd5c7ebd0d005d86.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH008_hu_6629766b2301e931.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH008_hu_6629766b2301e931.jpeg" data-pswp-width="1577" data-pswp-height="938" data-pswp-target="ugh008.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 357">
+          <figure style=" aspect-ratio: 600 / 357">
+            <img class="lazyload" width="600" height="357" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH008_hu_dce0d0c2db925b42.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH008_hu_6629766b2301e931.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH009_hu_87a9a5712bde3479.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH009_hu_87a9a5712bde3479.jpeg" data-pswp-width="1566" data-pswp-height="946" data-pswp-target="ugh009.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 362">
+          <figure style=" aspect-ratio: 600 / 362">
+            <img class="lazyload" width="600" height="362" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH009_hu_71b48c3075df105d.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH009_hu_87a9a5712bde3479.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH010_hu_c579b6c0ac4a2f5a.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH010_hu_c579b6c0ac4a2f5a.jpeg" data-pswp-width="821" data-pswp-height="609" data-pswp-target="ugh010.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 445">
+          <figure style=" aspect-ratio: 600 / 445">
+            <img class="lazyload" width="600" height="445" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH010_hu_5dbc94e019de1435.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH010_hu_c579b6c0ac4a2f5a.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH011_hu_27fd1c9de7075aa2.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH011_hu_27fd1c9de7075aa2.jpg" data-pswp-width="857" data-pswp-height="583" data-pswp-target="ugh011.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 408">
+          <figure style=" aspect-ratio: 600 / 408">
+            <img class="lazyload" width="600" height="408" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH011_hu_2b38d50a84bc3fcf.png" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH011_hu_27fd1c9de7075aa2.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH012_hu_8cdc87d98d968843.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH012_hu_8cdc87d98d968843.jpeg" data-pswp-width="1303" data-pswp-height="750" data-pswp-target="ugh012.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 345">
+          <figure style=" aspect-ratio: 600 / 345">
+            <img class="lazyload" width="600" height="345" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH012_hu_3a133d2d717d096c.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH012_hu_8cdc87d98d968843.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH013_hu_b69035621f91be64.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH013_hu_b69035621f91be64.jpg" data-pswp-width="1074" data-pswp-height="725" data-pswp-target="ugh013.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 405">
+          <figure style=" aspect-ratio: 600 / 405">
+            <img class="lazyload" width="600" height="405" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH013_hu_798a8d3f89ee4535.png" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH013_hu_b69035621f91be64.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH014_hu_64f771f5c4b81d3a.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH014_hu_64f771f5c4b81d3a.jpg" data-pswp-width="1018" data-pswp-height="814" data-pswp-target="ugh014.webp" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 480">
+          <figure style=" aspect-ratio: 600 / 480">
+            <img class="lazyload" width="600" height="480" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH014_hu_b288dcd9751fed41.webp" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH014_hu_64f771f5c4b81d3a.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH015_hu_fe227835a8bc3b85.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH015_hu_fe227835a8bc3b85.jpg" data-pswp-width="965" data-pswp-height="518" data-pswp-target="ugh015.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 322">
+          <figure style=" aspect-ratio: 600 / 322">
+            <img class="lazyload" width="600" height="322" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH015_hu_d759d3398717417a.png" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH015_hu_fe227835a8bc3b85.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH016_hu_b54b90a06641d79e.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH016_hu_b54b90a06641d79e.jpeg" data-pswp-width="2268" data-pswp-height="1754" data-pswp-target="ugh016.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 464">
+          <figure style=" aspect-ratio: 600 / 464">
+            <img class="lazyload" width="600" height="464" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH016_hu_432527300ed015a4.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH016_hu_b54b90a06641d79e.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH017_hu_5331108672d43591.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH017_hu_5331108672d43591.jpeg" data-pswp-width="2272" data-pswp-height="1756" data-pswp-target="ugh017.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 464">
+          <figure style=" aspect-ratio: 600 / 464">
+            <img class="lazyload" width="600" height="464" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH017_hu_bc1da580e5d92848.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH017_hu_5331108672d43591.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH018_hu_84ba4a9372f49f09.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH018_hu_84ba4a9372f49f09.jpeg" data-pswp-width="2261" data-pswp-height="1752" data-pswp-target="ugh018.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 465">
+          <figure style=" aspect-ratio: 600 / 465">
+            <img class="lazyload" width="600" height="465" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH018_hu_812e93d18179e1db.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH018_hu_84ba4a9372f49f09.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH019_hu_6479d6ef93bc928b.jpg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH019_hu_6479d6ef93bc928b.jpg" data-pswp-width="1013" data-pswp-height="680" data-pswp-target="ugh019.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 403">
+          <figure style=" aspect-ratio: 600 / 403">
+            <img class="lazyload" width="600" height="403" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH019_hu_1bd737f6d5fa6211.png" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH019_hu_6479d6ef93bc928b.jpg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH020_hu_dbf2b055679147fa.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH020_hu_dbf2b055679147fa.jpeg" data-pswp-width="1615" data-pswp-height="902" data-pswp-target="ugh020.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 335">
+          <figure style=" aspect-ratio: 600 / 335">
+            <img class="lazyload" width="600" height="335" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH020_hu_233cfa0f7da927e5.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH020_hu_dbf2b055679147fa.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH021_hu_51be6d0689ae0726.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH021_hu_51be6d0689ae0726.jpeg" data-pswp-width="1615" data-pswp-height="902" data-pswp-target="ugh021.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 335">
+          <figure style=" aspect-ratio: 600 / 335">
+            <img class="lazyload" width="600" height="335" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH021_hu_4b25b5086b4836f1.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH021_hu_51be6d0689ae0726.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH022_hu_702f7c3efc1b60db.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH022_hu_702f7c3efc1b60db.jpeg" data-pswp-width="1615" data-pswp-height="902" data-pswp-target="ugh022.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 335">
+          <figure style=" aspect-ratio: 600 / 335">
+            <img class="lazyload" width="600" height="335" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH022_hu_f0bc4505e9ed4c85.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH022_hu_702f7c3efc1b60db.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH023_hu_f4eaef4c04693b4a.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH023_hu_f4eaef4c04693b4a.jpeg" data-pswp-width="1527" data-pswp-height="893" data-pswp-target="ugh023.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 351">
+          <figure style=" aspect-ratio: 600 / 351">
+            <img class="lazyload" width="600" height="351" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH023_hu_b2731c7a14bd5956.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH023_hu_f4eaef4c04693b4a.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH024_hu_e74b7da10c44ea23.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH024_hu_e74b7da10c44ea23.jpeg" data-pswp-width="1605" data-pswp-height="893" data-pswp-target="ugh024.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 334">
+          <figure style=" aspect-ratio: 600 / 334">
+            <img class="lazyload" width="600" height="334" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH024_hu_82190c145c04c324.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH024_hu_e74b7da10c44ea23.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH025_hu_28d7f6430c0784b3.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH025_hu_28d7f6430c0784b3.jpeg" data-pswp-width="1605" data-pswp-height="893" data-pswp-target="ugh025.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 334">
+          <figure style=" aspect-ratio: 600 / 334">
+            <img class="lazyload" width="600" height="334" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH025_hu_d7afde7bf64c43aa.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH025_hu_28d7f6430c0784b3.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH026_hu_6eae8183dd9b5130.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH026_hu_6eae8183dd9b5130.jpeg" data-pswp-width="1605" data-pswp-height="893" data-pswp-target="ugh026.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 334">
+          <figure style=" aspect-ratio: 600 / 334">
+            <img class="lazyload" width="600" height="334" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH026_hu_be94aa59c0819f2.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH026_hu_6eae8183dd9b5130.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH027_hu_64408f27729df185.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH027_hu_64408f27729df185.jpeg" data-pswp-width="1605" data-pswp-height="893" data-pswp-target="ugh027.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 334">
+          <figure style=" aspect-ratio: 600 / 334">
+            <img class="lazyload" width="600" height="334" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH027_hu_49cc093df8e52632.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH027_hu_64408f27729df185.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH028_hu_d2128a0ce060d8a0.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH028_hu_d2128a0ce060d8a0.jpeg" data-pswp-width="1605" data-pswp-height="893" data-pswp-target="ugh028.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 334">
+          <figure style=" aspect-ratio: 600 / 334">
+            <img class="lazyload" width="600" height="334" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH028_hu_f0ee5704bdb29151.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH028_hu_d2128a0ce060d8a0.jpeg" />
+          
+        </a>
+      
+    
+      
+      
+      
+        
+        
+        
+            
+            
+        
+        
+        <a class="gallery-item" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH029_hu_21fd969d9158fc93.jpeg" data-pswp-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH029_hu_21fd969d9158fc93.jpeg" data-pswp-width="1615" data-pswp-height="902" data-pswp-target="ugh029.jpeg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 600 / 335">
+          <figure style=" aspect-ratio: 600 / 335">
+            <img class="lazyload" width="600" height="335" data-src="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH029_hu_3e9cecf7d095e03f.jpeg" alt="" />
+          </figure>
+          <meta itemprop="contentUrl" content="/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH029_hu_21fd969d9158fc93.jpeg" />
+          
+        </a>
+      
+    
+  </div>
+</section>
+
+  
+  
+
+  <hgroup style="margin-top: 1rem">
+    <h2>Powiązane albumy</h2>
+  </hgroup>
+  <section class="galleries">
+    
+      
+
+  <a class="card" href="/projektowanie-gier/gra-komputerowa-deadfound/" title="Gra komputerowa - Dead &amp; Found">
+    <figure style="background-color: #434b49">
+      <img class="lazyload coverCrop-fill" width="600" height="400" data-src="/projektowanie-gier/gra-komputerowa-deadfound/DF000_hu_e1f386f9a14fbc4f.png" alt="Gra komputerowa - Dead &amp; Found" />
+    </figure>
+    <div>
+      <h2>Gra komputerowa - Dead &amp; Found</h2>
+      <p>
+        
+          
+            9 zdjęć
+          
+        
+      </p>
+    </div>
+  </a>
+
+
+    
+      
+
+  <a class="card" href="/rysunek-cyfrowy/cyberprl/" title="Projekt pomieszczenia - CyberPRL">
+    <figure style="background-color: #c1c1c1">
+      <img class="lazyload coverCrop-fill" width="600" height="400" data-src="/rysunek-cyfrowy/cyberprl/A-prezentacja-4_hu_e3f94a2ffa133683.png" alt="Projekt pomieszczenia - CyberPRL" />
+    </figure>
+    <div>
+      <h2>Projekt pomieszczenia - CyberPRL</h2>
+      <p>
+        
+          
+            6 zdjęć
+          
+        
+      </p>
+    </div>
+  </a>
+
+
+    
+      
+
+  <a class="card" href="/grafika-3d/projekt-postaci/" title="Projekt postaci">
+    <figure style="background-color: #c0a5a6">
+      <img class="lazyload coverCrop-fill" width="600" height="400" data-src="/grafika-3d/projekt-postaci/PNP001_hu_6f82b15eb5c51e05.png" alt="Projekt postaci" />
+    </figure>
+    <div>
+      <h2>Projekt postaci</h2>
+      <p>
+        
+          
+            10 zdjęć
+          
+        
+      </p>
+    </div>
+  </a>
+
+
+    
+  </section>
+
+
+
+    </main>
+    <div class="col sidebar sidebar-right">
+      
+    
+
+
+
+
+
+    
+
+
+<div class="tags">
+    <h2><a href="/tags/">Tagi</a></h2>
+    <nav class="tags categories">
+        <ul>
+            
+            
+            
+            
+            <li>
+                <a href="/tags/krita/">
+                    <img src="/tags/krita/0-krita-trim_hu_56a0e09656a07619.png" alt="" /> <span>Krita</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            <li>
+                <a href="/tags/unreal-engine/">
+                    <img src="/tags/unreal-engine/ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7_hu_dc1521a74ea4cf79.png" alt="" /> <span>Unreal Engine</span>
+                </a>
+            </li>
+            
+            
+            
+            
+            <li>
+                <a href="/tags/blender/">
+                    <img src="/tags/blender/pngegg%281%29_hu_f832e405cf8947a8.png" alt="" /> <span>Blender</span>
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+      
+    </div>
+  </div>
+  <footer>
+  
+
+  <section>
+    
+    
+      <a href="https://github.com/nicokaiser/hugo-theme-gallery/">
+        Gallery theme for Hugo by nicokaiser
+      </a>
+    
+      <a href="https://github.com/konradmb">
+        Mod by konradmb
+      </a>
+    
+  </section>
+</footer>
+
+  <div></div>
+</body>
+
+</html>

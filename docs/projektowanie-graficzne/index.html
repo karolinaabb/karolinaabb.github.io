@@ -2,13 +2,125 @@
 <html class="dark"
   lang="pl">
 <head>
-  <meta name="dateGenerated" content="2025-09-19 21:17:19.051728946 &#43;0200 CEST m=&#43;0.257514074" /> 
+  <meta name="dateGenerated" content="2026-05-22 00:51:49.189802772 &#43;0200 CEST m=&#43;0.318055554" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Karolina Boroń - Portfolio</title>
   <link rel="canonical" href="https://karolinaabb.github.io/projektowanie-graficzne/" />
-  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
-  
+  <link rel="icon" type="image/svg+xml" href="/logo-v2.svg" /><script defer type="module">
+    import { DotLottie } from 'https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web@0.73.0/+esm';
+
+    
+    const canvas = document.createElement('canvas');
+    
+    let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    function applyTheme() {
+      isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      updateFavicon();
+      
+      
+      
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      applyTheme();
+    });
+    canvas.width = 64;
+    canvas.height = 64;
+    const ctx = canvas.getContext('2d');
+
+    
+    let faviconLink = document.querySelector("link[rel='icon']");
+    if (!faviconLink) {
+      faviconLink = document.createElement('link');
+      faviconLink.rel = 'icon';
+      document.head.appendChild(faviconLink);
+    }
+    let faviconLinkOriginal = faviconLink.cloneNode();
+
+    function updateFavicon() {
+      
+      
+      
+      
+      
+      
+      if (isDark) {
+        ctx.filter = 'invert(1)';
+        ctx.drawImage(canvas, 0, 0);
+      }
+      canvas.toBlob(function (blob) {faviconLink.href = URL.createObjectURL(blob);}, 'image/png');
+      
+
+
+    }
+
+    
+    
+    
+
+    const dotLottie = new DotLottie({
+      canvas: canvas,
+      src: "/favicon-animated.lot.json",
+      
+      autoplay: false,
+      loop: false,
+      
+    })
+    window.dotLottie = dotLottie;
+    dotLottie.addEventListener('load', () => {
+      dotLottie.setFrame(0);
+      updateFavicon();
+    });
+
+    let isPlaying = false;
+    let animFrameId = null;
+
+    let lastUpdate = 0;
+    const fps = 30; 
+    const fpsInterval = 1000 / fps;
+
+    function startAnimationLoop() {
+      if (isPlaying) return;
+      isPlaying = true;
+      faviconLink.type = "image/png";
+
+      function loop(timestamp) {
+        animFrameId = requestAnimationFrame(loop);
+
+        const elapsed = timestamp - lastUpdate;
+        
+        if (elapsed > fpsInterval) {
+          lastUpdate = timestamp - (elapsed % fpsInterval);
+          updateFavicon();
+        }
+      }
+      loop();
+    }
+
+    function stopAnimationLoop() {
+      isPlaying = false;
+      if (animFrameId) {
+        cancelAnimationFrame(animFrameId);
+        animFrameId = null;
+      }
+    }
+
+    
+    setTimeout(() => { dotLottie.play(); }, 6000);
+
+    
+    dotLottie.addEventListener('play', () => {
+      startAnimationLoop();
+    });
+
+    dotLottie.addEventListener('complete', () => {
+      stopAnimationLoop();
+      updateFavicon();
+      setTimeout(() => {faviconLink.replaceWith(faviconLinkOriginal);}, 500);
+    });
+</script>
+
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
   <meta name="description" content="Portfolio Karoliny Boroń" />
   
@@ -24,7 +136,7 @@
 
 
   
-  <link rel="stylesheet" href="/css/main.min.d911c47ab36b66d42b7dd934a5664f8a808c38c231e2abf6b591093c9248f63e.css" />
+  <link rel="stylesheet" href="/css/main.min.fc20076538fb8afdedaa5789354bffd51be8ff599fcf2880cc0d852cdcfa5164.css" />
   
   
   <script src="/js/main.c6580346466f0a08c287801929db96c1d5412824532524064e6b2b5238ac64dd.js" defer></script>
@@ -72,13 +184,13 @@
 <div>
     <center class="avatar">
     <a href="/">
-        <img src="/images/Avatar as3.png" width="130" class="avatar-img" alt="Avatar">
+        <img src="/images/avatar-new.png" width="130" class="avatar-img" alt="Avatar">
     <h1>Karolina Boroń</h1>
 </a>
     
     
 </center>
-    
+
     <div class="description collapsible-content">
         <center class="location">
     <a href="https://pl.wikipedia.org/wiki/Bielsko-Bia%C5%82a"><b>Bielsko-Biała</b></a><br />
@@ -88,7 +200,18 @@
 <div class="education">
     <h2 class="title"> <svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 640 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9l0 28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5l0-24.6c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"/></svg> Wykształcenie:</h2>
     <div class="schools">
-        
+        <div class="school">
+            <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160l0 8c0 13.3 10.7 24 24 24l400 0c13.3 0 24-10.7 24-24l0-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224l-64 0 0 196.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512l448 0c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1L448 224l-64 0 0 192-40 0 0-192-64 0 0 192-48 0 0-192-64 0 0 192-40 0 0-192zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> Magister – projektowanie gier i&nbsp;przestrzeni wirtualnej</h3>
+            <p class="text-sm">2025 – obecnie</p>
+            <p class="school-name">
+                <a class="link" href="https://studiujwcieszynie.pl/">
+                    Uniwersytet Śląski w Katowicach (filia w Cieszynie)
+                </a>
+            </p>
+            <p class="school-spec">
+                Specjalizacja: animacja
+            </p>
+        </div>
         <div class="school">
             <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160l0 8c0 13.3 10.7 24 24 24l400 0c13.3 0 24-10.7 24-24l0-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224l-64 0 0 196.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512l448 0c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1L448 224l-64 0 0 192-40 0 0-192-64 0 0 192-48 0 0-192-64 0 0 192-40 0 0-192zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> Licencjat – gry i&nbsp;grafika interaktywna</h3>
             <p class="text-sm">2022 – 2025</p>
@@ -132,11 +255,60 @@
 <div class="education">
     <h2 class="title"> <svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z"/></svg> Doświadczenie zawodowe:</h2>
     <div class="schools">
-        <div class="school">
+        <div class="school multi-spacing">
             <h3 class=""><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M0 32C0 14.3 14.3 0 32 0L160 0c17.7 0 32 14.3 32 32l0 384c0 53-43 96-96 96s-96-43-96-96L0 32zM223.6 425.9c.3-3.3 .4-6.6 .4-9.9l0-262 75.4-75.4c12.5-12.5 32.8-12.5 45.3 0l90.5 90.5c12.5 12.5 12.5 32.8 0 45.3L223.6 425.9zM182.8 512l192-192L480 320c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-297.2 0zM128 64L64 64l0 64 64 0 0-64zM64 192l0 64 64 0 0-64-64 0zM96 440a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"/></svg> Praktyki zawodowe</h3>
+          
+          
+            <p class="years">2026</p>
+            <p class="school-name">
+                <a class="link" href="/projektowanie-gier/gra-komputerowa-undergroundhogday/">
+                    GameJam "Juśt Transition"
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Tworzenie <br/> prototypu gry  <br/>
+                komputerowej
+            </p>
+            
+            <p class="years">2025</p>
+            <p class="school-name">
+                <a class="link" href="/projektowanie-gier/gra-komputerowa-deadfound/">
+                    GameJam "Juśt Transition"
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Tworzenie <br/> prototypu gry  <br/>
+                komputerowej
+            </p>
+        
+
+            <p class="years">2025</p>
+            <p class="school-name">
+                <a class="link" href="">
+                    Hegemon Shop
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Projektowanie i&nbsp;przygotowywanie do druku  <br/>
+                materiałów promocyjnych
+            </p>  
+
+            
+            <p class="years">2024</p>
+            <p class="school-name">
+                <a class="link" href="">
+                    GRAmel Books
+                </a>
+            </p>
+            <p class="school-spec">
+                Zakres pracy: Tłumaczenie <br/> i&nbsp;korekta tekstów gry  <br/>
+               na język angielski
+            </p>  
+
+            
             <p class="years">2019</p>
             <p class="school-name">
-                <a class="link" href="https://mediagraf.com.pl/">
+                <a class="link" href="">
                     Mediagraf
                 </a>
             </p>
@@ -151,10 +323,19 @@
 
 
     </div>
-    
-    <input id="collapsible" class="collapsible-toggle" type="checkbox" >
+
+    <input id="collapsible" class="collapsible-toggle" type="checkbox" autocomplete="off">
     <label for="collapsible" class="collapsible-label"><div><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" viewBox="0 0 384 512" width="1em" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></div></label>
 </div>
+<script>
+  var isHome = false;
+  setTimeout(function () {
+    if (isHome && window.innerWidth >= 1200) {
+      document.getElementById('collapsible').checked = true;
+    }
+  }, 200);
+</script>
+
     </div>
     <main class="col-6">
       
@@ -164,6 +345,8 @@
 
   <nav class="categories">
     <ul>
+      
+        <li class=""><a  href="/categories/animacja/">Animacja</a></li>
       
         <li class=""><a  href="/categories/grafika-3d/">Grafika 3D</a></li>
       
@@ -176,13 +359,18 @@
         <li class=""><a  href="/categories/projektowanie-stron-i-ui/">Projektowanie stron i UI</a></li>
       
       
-        <li class=""><a  href="/rysunek-cyfrowy/">Rysunek cyfrowy</a></li>
-      
+        
         <li class=""><a  href="/rysunek-tradycyjny/">Rysunek tradycyjny</a></li>
+      
+        
+        <li class=""><a  href="/rysunek-cyfrowy/">Rysunek cyfrowy</a></li>
       
     </ul>
   </nav>
 
+  <section class="prose">
+    
+  </section>
   <section class="galleries">
     
       
