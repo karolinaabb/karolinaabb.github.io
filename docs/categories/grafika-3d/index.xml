@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grafika 3D on Karolina Boroń - Portfolio</title>
-    <link>https://karolinaabb.github.io/categories/grafika-3d/</link>
+    <link>http://localhost:1313/categories/grafika-3d/</link>
     <description>Recent content in Grafika 3D on Karolina Boroń - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language><atom:link href="https://karolinaabb.github.io/categories/grafika-3d/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language><atom:link href="http://localhost:1313/categories/grafika-3d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postać high poly 3D</title>
-      <link>https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/</link>
+      <link>http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/</guid><media:content url="http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Wizualizacje przedmiotów</title>
-      <link>https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/</link>
+      <link>http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/</guid><media:content url="http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Projekt postaci</title>
-      <link>https://karolinaabb.github.io/grafika-3d/projekt-postaci/</link>
+      <link>http://localhost:1313/grafika-3d/projekt-postaci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/projekt-postaci/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/projekt-postaci/</guid><media:content url="http://localhost:1313/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Wizualizacje przedmiotów 2</title>
-      <link>https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</link>
+      <link>http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</guid><media:content url="http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Malowana tekstura</title>
-      <link>https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/</link>
+      <link>http://localhost:1313/grafika-3d/blender---malowanie-tekstury/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/blender---malowanie-tekstury/</guid><media:content url="http://localhost:1313/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Render pokoju</title>
-      <link>https://karolinaabb.github.io/grafika-3d/render-pokoju/</link>
+      <link>http://localhost:1313/grafika-3d/render-pokoju/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/render-pokoju/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/render-pokoju/</guid><media:content url="http://localhost:1313/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
   </channel>

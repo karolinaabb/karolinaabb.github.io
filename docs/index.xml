@@ -2,332 +2,332 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on Karolina Boroń - Portfolio</title>
-    <link>https://karolinaabb.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Portfolio on Karolina Boroń - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language><atom:link href="https://karolinaabb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gra komputerowa - Heksaria</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/heksaria/</link>
+      <link>http://localhost:1313/projektowanie-gier/heksaria/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/heksaria/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/heksaria/HX001_hu_a9b8363a4572e70c.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-gier/heksaria/</guid><media:content url="http://localhost:1313/projektowanie-gier/heksaria/HX001_hu_a9b8363a4572e70c.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/heksaria/HX001_hu_a9b8363a4572e70c.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/heksaria/HX001_hu_a9b8363a4572e70c.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Gra planszowa - Optyk Okultysta</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/gra-planszowa/</link>
+      <link>http://localhost:1313/projektowanie-gier/gra-planszowa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/gra-planszowa/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/gra-planszowa/C000_hu_7ed9bd0cdd6bf14c.jpeg" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-gier/gra-planszowa/</guid><media:content url="http://localhost:1313/projektowanie-gier/gra-planszowa/C000_hu_7ed9bd0cdd6bf14c.jpeg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/gra-planszowa/C000_hu_7ed9bd0cdd6bf14c.jpeg&quot; /&gt;
-          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
-        </description></item>
-    <item>
-      <title>Zine - Poradnik dobrego współlokatorstwa</title>
-      <link>https://karolinaabb.github.io/projektowanie-graficzne/zine-kot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-graficzne/zine-kot/</guid><media:content url="https://karolinaabb.github.io/projektowanie-graficzne/zine-kot/CZ001_hu_7e7bc48041094a0c.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-graficzne/zine-kot/CZ001_hu_7e7bc48041094a0c.png&quot; /&gt;
-          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
-        </description></item>
-    <item>
-      <title>Gra komputerowa - Dead &amp; Found</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-deadfound/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-deadfound/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-deadfound/DF000_hu_d294ffe1a551aeaa.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-deadfound/DF000_hu_d294ffe1a551aeaa.png&quot; /&gt;
-          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
-        </description></item>
-    <item>
-      <title>Gra komputerowa - the Pond</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-pond/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-pond/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-pond/TD000_hu_6c1df7481b4ae166.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-pond/TD000_hu_6c1df7481b4ae166.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/gra-planszowa/C000_hu_7ed9bd0cdd6bf14c.jpeg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Postać high poly 3D</title>
-      <link>https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/</link>
+      <link>http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/</guid><media:content url="http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
-      <title>Projekt pomieszczenia - CyberPRL</title>
-      <link>https://karolinaabb.github.io/rysunek-cyfrowy/cyberprl/</link>
+      <title>Gra komputerowa - Dead &amp; Found</title>
+      <link>http://localhost:1313/projektowanie-gier/gra-komputerowa-deadfound/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/rysunek-cyfrowy/cyberprl/</guid><media:content url="https://karolinaabb.github.io/rysunek-cyfrowy/cyberprl/A-prezentacja-2_hu_141c7fc514abdae8.jpg" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-gier/gra-komputerowa-deadfound/</guid><media:content url="http://localhost:1313/projektowanie-gier/gra-komputerowa-deadfound/DF000_hu_d294ffe1a551aeaa.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/rysunek-cyfrowy/cyberprl/A-prezentacja-2_hu_141c7fc514abdae8.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/gra-komputerowa-deadfound/DF000_hu_d294ffe1a551aeaa.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Zine - Poradnik dobrego współlokatorstwa</title>
+      <link>http://localhost:1313/projektowanie-graficzne/zine-kot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projektowanie-graficzne/zine-kot/</guid><media:content url="http://localhost:1313/projektowanie-graficzne/zine-kot/CZ001_hu_7e7bc48041094a0c.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/projektowanie-graficzne/zine-kot/CZ001_hu_7e7bc48041094a0c.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Animacja postaci - emocje</title>
-      <link>https://karolinaabb.github.io/animacja/character-expressions/</link>
+      <link>http://localhost:1313/animacja/character-expressions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/character-expressions/</guid><media:content url="https://karolinaabb.github.io/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/character-expressions/</guid><media:content url="http://localhost:1313/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>DishDash - UI wyścigowej gry mobilnej</title>
-      <link>https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/</link>
+      <link>http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/</guid><media:content url="https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/</guid><media:content url="http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Projekt pomieszczenia - CyberPRL</title>
+      <link>http://localhost:1313/rysunek-cyfrowy/cyberprl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rysunek-cyfrowy/cyberprl/</guid><media:content url="http://localhost:1313/rysunek-cyfrowy/cyberprl/A-prezentacja-2_hu_141c7fc514abdae8.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/rysunek-cyfrowy/cyberprl/A-prezentacja-2_hu_141c7fc514abdae8.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Rysunek tradycyjny</title>
-      <link>https://karolinaabb.github.io/rysunek-tradycyjny/</link>
+      <link>http://localhost:1313/rysunek-tradycyjny/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/rysunek-tradycyjny/</guid><media:content url="https://karolinaabb.github.io/rysunek-tradycyjny/A001_hu_1c63fa0cb38a878a.jpg" type="image/jpeg"/>
+      <guid>http://localhost:1313/rysunek-tradycyjny/</guid><media:content url="http://localhost:1313/rysunek-tradycyjny/A001_hu_1c63fa0cb38a878a.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/rysunek-tradycyjny/A001_hu_1c63fa0cb38a878a.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/rysunek-tradycyjny/A001_hu_1c63fa0cb38a878a.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Rysunki różne</title>
-      <link>https://karolinaabb.github.io/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/</link>
+      <link>http://localhost:1313/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/</guid><media:content url="https://karolinaabb.github.io/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/B001_hu_cbc7675bf899bd74.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/</guid><media:content url="http://localhost:1313/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/B001_hu_cbc7675bf899bd74.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/B001_hu_cbc7675bf899bd74.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/rysunek-cyfrowy/rysunki-r%C3%B3%C5%BCne/B001_hu_cbc7675bf899bd74.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Wizualizacje przedmiotów</title>
-      <link>https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/</link>
+      <link>http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/</guid><media:content url="http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/wizualizacje-przedmiot%C3%B3w/I001_hu_7ca0ac640e714ad3.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Animacja postaci - zodiak</title>
-      <link>https://karolinaabb.github.io/animacja/animacja-postaci-zodiak/</link>
+      <link>http://localhost:1313/animacja/animacja-postaci-zodiak/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/animacja-postaci-zodiak/</guid><media:content url="https://karolinaabb.github.io/animacja/animacja-postaci-zodiak/ZP001_hu_60cfca4f57a17d0.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/animacja-postaci-zodiak/</guid><media:content url="http://localhost:1313/animacja/animacja-postaci-zodiak/ZP001_hu_60cfca4f57a17d0.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/animacja-postaci-zodiak/ZP001_hu_60cfca4f57a17d0.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/animacja-postaci-zodiak/ZP001_hu_60cfca4f57a17d0.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Animacja short - Cyberdżuma</title>
-      <link>https://karolinaabb.github.io/animacja/animacja-short-cyberd%C5%BCuma/</link>
+      <link>http://localhost:1313/animacja/animacja-short-cyberd%C5%BCuma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/animacja-short-cyberd%C5%BCuma/</guid><media:content url="https://karolinaabb.github.io/animacja/animacja-short-cyberd%C5%BCuma/CD002,5_hu_fdef17231b3cc00e.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/animacja-short-cyberd%C5%BCuma/</guid><media:content url="http://localhost:1313/animacja/animacja-short-cyberd%C5%BCuma/CD002,5_hu_fdef17231b3cc00e.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/animacja-short-cyberd%C5%BCuma/CD002,5_hu_fdef17231b3cc00e.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/animacja-short-cyberd%C5%BCuma/CD002,5_hu_fdef17231b3cc00e.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Animacja short - Królestwo Szczurów</title>
-      <link>https://karolinaabb.github.io/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/</link>
+      <link>http://localhost:1313/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/</guid><media:content url="https://karolinaabb.github.io/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/KS002_hu_c6c6f3f711b1495d.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/</guid><media:content url="http://localhost:1313/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/KS002_hu_c6c6f3f711b1495d.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/KS002_hu_c6c6f3f711b1495d.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/animacja-short-kr%C3%B3lestwo-szczur%C3%B3w/KS002_hu_c6c6f3f711b1495d.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Czysty las - strona internetowa wolontariatu</title>
-      <link>https://karolinaabb.github.io/projektowanie-stron/czysty-las/</link>
+      <link>http://localhost:1313/projektowanie-stron/czysty-las/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-stron/czysty-las/</guid><media:content url="https://karolinaabb.github.io/projektowanie-stron/czysty-las/F000_hu_a3f3e72b8a908dd6.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-stron/czysty-las/</guid><media:content url="http://localhost:1313/projektowanie-stron/czysty-las/F000_hu_a3f3e72b8a908dd6.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-stron/czysty-las/F000_hu_a3f3e72b8a908dd6.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-stron/czysty-las/F000_hu_a3f3e72b8a908dd6.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Filcowe pluszaki</title>
-      <link>https://karolinaabb.github.io/hobby/filcowe-pluszaki/</link>
+      <link>http://localhost:1313/hobby/filcowe-pluszaki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/hobby/filcowe-pluszaki/</guid><media:content url="https://karolinaabb.github.io/hobby/filcowe-pluszaki/AN001_hu_8d53ad6c62b60f4c.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/hobby/filcowe-pluszaki/</guid><media:content url="http://localhost:1313/hobby/filcowe-pluszaki/AN001_hu_8d53ad6c62b60f4c.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/hobby/filcowe-pluszaki/AN001_hu_8d53ad6c62b60f4c.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/hobby/filcowe-pluszaki/AN001_hu_8d53ad6c62b60f4c.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Identyfikacja wizualna - PIWet</title>
-      <link>https://karolinaabb.github.io/projektowanie-graficzne/identyfikacja-wizualna-piwet/</link>
+      <link>http://localhost:1313/projektowanie-graficzne/identyfikacja-wizualna-piwet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-graficzne/identyfikacja-wizualna-piwet/</guid><media:content url="https://karolinaabb.github.io/projektowanie-graficzne/identyfikacja-wizualna-piwet/PWT000_hu_504d6f4b1147723d.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-graficzne/identyfikacja-wizualna-piwet/</guid><media:content url="http://localhost:1313/projektowanie-graficzne/identyfikacja-wizualna-piwet/PWT000_hu_504d6f4b1147723d.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-graficzne/identyfikacja-wizualna-piwet/PWT000_hu_504d6f4b1147723d.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-graficzne/identyfikacja-wizualna-piwet/PWT000_hu_504d6f4b1147723d.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Plakat - Jan Czochralski</title>
-      <link>https://karolinaabb.github.io/animacja/poster-czochralski/</link>
+      <link>http://localhost:1313/animacja/poster-czochralski/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/poster-czochralski/</guid><media:content url="https://karolinaabb.github.io/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/poster-czochralski/</guid><media:content url="http://localhost:1313/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Projekt postaci</title>
-      <link>https://karolinaabb.github.io/grafika-3d/projekt-postaci/</link>
+      <link>http://localhost:1313/grafika-3d/projekt-postaci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/projekt-postaci/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/projekt-postaci/</guid><media:content url="http://localhost:1313/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/projekt-postaci/PNP001_hu_c6780d4ea2a3baf0.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Wizualizacje przedmiotów 2</title>
-      <link>https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</link>
+      <link>http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/</guid><media:content url="http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/blender---wizualizacje-przedmiot%C3%B3w-2/J001_hu_4f0d75757abad824.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Gaude Cantem - dyplomy</title>
-      <link>https://karolinaabb.github.io/projektowanie-graficzne/gaudecantem-dyplomy/</link>
+      <link>http://localhost:1313/projektowanie-graficzne/gaudecantem-dyplomy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-graficzne/gaudecantem-dyplomy/</guid><media:content url="https://karolinaabb.github.io/projektowanie-graficzne/gaudecantem-dyplomy/GC000,5_hu_ff25d73d754231ed.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-graficzne/gaudecantem-dyplomy/</guid><media:content url="http://localhost:1313/projektowanie-graficzne/gaudecantem-dyplomy/GC000,5_hu_ff25d73d754231ed.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-graficzne/gaudecantem-dyplomy/GC000,5_hu_ff25d73d754231ed.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-graficzne/gaudecantem-dyplomy/GC000,5_hu_ff25d73d754231ed.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Gra komputerowa - UndergroundHog Day</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-undergroundhogday/</link>
+      <link>http://localhost:1313/projektowanie-gier/gra-komputerowa-undergroundhogday/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-undergroundhogday/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_712b7759ca9c8207.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-gier/gra-komputerowa-undergroundhogday/</guid><media:content url="http://localhost:1313/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_712b7759ca9c8207.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_712b7759ca9c8207.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/gra-komputerowa-undergroundhogday/UGH001_hu_712b7759ca9c8207.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Gra mobilna - pixel art, side-scroll</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/</link>
+      <link>http://localhost:1313/projektowanie-gier/gra-mobilna-pixelart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/AX000_hu_5051e27b8889f92f.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-gier/gra-mobilna-pixelart/</guid><media:content url="http://localhost:1313/projektowanie-gier/gra-mobilna-pixelart/AX000_hu_5051e27b8889f92f.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/gra-mobilna-pixelart/AX000_hu_5051e27b8889f92f.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/gra-mobilna-pixelart/AX000_hu_5051e27b8889f92f.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Malowana tekstura</title>
-      <link>https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/</link>
+      <link>http://localhost:1313/grafika-3d/blender---malowanie-tekstury/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/blender---malowanie-tekstury/</guid><media:content url="http://localhost:1313/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/blender---malowanie-tekstury/K001_hu_588a52906f6fd136.jpeg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Poziom gry w Unity</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/</link>
+      <link>http://localhost:1313/projektowanie-gier/poziom-gry-w-unity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/UN001_hu_a08a4c2f5c39cde5.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-gier/poziom-gry-w-unity/</guid><media:content url="http://localhost:1313/projektowanie-gier/poziom-gry-w-unity/UN001_hu_a08a4c2f5c39cde5.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unity/UN001_hu_a08a4c2f5c39cde5.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/poziom-gry-w-unity/UN001_hu_a08a4c2f5c39cde5.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Poziom gry w Unreal Engine</title>
-      <link>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/</link>
+      <link>http://localhost:1313/projektowanie-gier/poziom-gry-w-unreal-engine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/</guid><media:content url="https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/Unreal-thumb_hu_a54973a2078c4501.jpg" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-gier/poziom-gry-w-unreal-engine/</guid><media:content url="http://localhost:1313/projektowanie-gier/poziom-gry-w-unreal-engine/Unreal-thumb_hu_a54973a2078c4501.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-gier/poziom-gry-w-unreal-engine/Unreal-thumb_hu_a54973a2078c4501.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/poziom-gry-w-unreal-engine/Unreal-thumb_hu_a54973a2078c4501.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Render pokoju</title>
-      <link>https://karolinaabb.github.io/grafika-3d/render-pokoju/</link>
+      <link>http://localhost:1313/grafika-3d/render-pokoju/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/grafika-3d/render-pokoju/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/grafika-3d/render-pokoju/</guid><media:content url="http://localhost:1313/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/grafika-3d/render-pokoju/G001_hu_4ef6c7bed665d6b7.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Zuzanna Rogatty - publikacja</title>
-      <link>https://karolinaabb.github.io/projektowanie-graficzne/zuzanna-rogatty-publikacja/</link>
+      <link>http://localhost:1313/projektowanie-graficzne/zuzanna-rogatty-publikacja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-graficzne/zuzanna-rogatty-publikacja/</guid><media:content url="https://karolinaabb.github.io/projektowanie-graficzne/zuzanna-rogatty-publikacja/AC000_hu_cdf99d69cb9c4846.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-graficzne/zuzanna-rogatty-publikacja/</guid><media:content url="http://localhost:1313/projektowanie-graficzne/zuzanna-rogatty-publikacja/AC000_hu_cdf99d69cb9c4846.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-graficzne/zuzanna-rogatty-publikacja/AC000_hu_cdf99d69cb9c4846.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-graficzne/zuzanna-rogatty-publikacja/AC000_hu_cdf99d69cb9c4846.png&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Gra komputerowa - the Pond</title>
+      <link>http://localhost:1313/projektowanie-gier/gra-komputerowa-pond/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projektowanie-gier/gra-komputerowa-pond/</guid><media:content url="http://localhost:1313/projektowanie-gier/gra-komputerowa-pond/TD000_hu_6c1df7481b4ae166.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/projektowanie-gier/gra-komputerowa-pond/TD000_hu_6c1df7481b4ae166.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Ilustracja VFX postaci</title>
-      <link>https://karolinaabb.github.io/rysunek-cyfrowy/projekt-vfx/</link>
+      <link>http://localhost:1313/rysunek-cyfrowy/projekt-vfx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/rysunek-cyfrowy/projekt-vfx/</guid><media:content url="https://karolinaabb.github.io/rysunek-cyfrowy/projekt-vfx/VFX000_hu_b0f44b0c766651a.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/rysunek-cyfrowy/projekt-vfx/</guid><media:content url="http://localhost:1313/rysunek-cyfrowy/projekt-vfx/VFX000_hu_b0f44b0c766651a.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/rysunek-cyfrowy/projekt-vfx/VFX000_hu_b0f44b0c766651a.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/rysunek-cyfrowy/projekt-vfx/VFX000_hu_b0f44b0c766651a.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Ilustracja z plot twistem</title>
-      <link>https://karolinaabb.github.io/rysunek-cyfrowy/projekt-pomieszczenia/</link>
+      <link>http://localhost:1313/rysunek-cyfrowy/projekt-pomieszczenia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/rysunek-cyfrowy/projekt-pomieszczenia/</guid><media:content url="https://karolinaabb.github.io/rysunek-cyfrowy/projekt-pomieszczenia/Plot%20twist%20color_final_hu_b814d0e8566ed2c.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/rysunek-cyfrowy/projekt-pomieszczenia/</guid><media:content url="http://localhost:1313/rysunek-cyfrowy/projekt-pomieszczenia/Plot%20twist%20color_final_hu_b814d0e8566ed2c.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/rysunek-cyfrowy/projekt-pomieszczenia/Plot%20twist%20color_final_hu_b814d0e8566ed2c.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/rysunek-cyfrowy/projekt-pomieszczenia/Plot%20twist%20color_final_hu_b814d0e8566ed2c.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Portrety wektorowe</title>
-      <link>https://karolinaabb.github.io/projektowanie-graficzne/portrety-wektorowe/</link>
+      <link>http://localhost:1313/projektowanie-graficzne/portrety-wektorowe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-graficzne/portrety-wektorowe/</guid><media:content url="https://karolinaabb.github.io/projektowanie-graficzne/portrety-wektorowe/AJ_hu_6be14b147991e906.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-graficzne/portrety-wektorowe/</guid><media:content url="http://localhost:1313/projektowanie-graficzne/portrety-wektorowe/AJ_hu_6be14b147991e906.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-graficzne/portrety-wektorowe/AJ_hu_6be14b147991e906.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-graficzne/portrety-wektorowe/AJ_hu_6be14b147991e906.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Animacja 3D</title>
-      <link>https://karolinaabb.github.io/animacja/animacja-3d/</link>
+      <link>http://localhost:1313/animacja/animacja-3d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/animacja-3d/</guid><media:content url="https://karolinaabb.github.io/animacja/animacja-3d/H001_hu_85c9bb2f0ed1a7fd.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/animacja-3d/</guid><media:content url="http://localhost:1313/animacja/animacja-3d/H001_hu_85c9bb2f0ed1a7fd.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/animacja-3d/H001_hu_85c9bb2f0ed1a7fd.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/animacja-3d/H001_hu_85c9bb2f0ed1a7fd.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Eduo - aplikacja mobilna z poradami DIY</title>
-      <link>https://karolinaabb.github.io/projektowanie-stron/eduo/</link>
+      <link>http://localhost:1313/projektowanie-stron/eduo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-stron/eduo/</guid><media:content url="https://karolinaabb.github.io/projektowanie-stron/eduo/D000_hu_51d667c7039b559c.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-stron/eduo/</guid><media:content url="http://localhost:1313/projektowanie-stron/eduo/D000_hu_51d667c7039b559c.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-stron/eduo/D000_hu_51d667c7039b559c.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-stron/eduo/D000_hu_51d667c7039b559c.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Omni - strona internetowa i mobilna z kursami online</title>
-      <link>https://karolinaabb.github.io/projektowanie-stron/omni/</link>
+      <link>http://localhost:1313/projektowanie-stron/omni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-stron/omni/</guid><media:content url="https://karolinaabb.github.io/projektowanie-stron/omni/E000_hu_d2bd2ed6a47debde.jpg" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-stron/omni/</guid><media:content url="http://localhost:1313/projektowanie-stron/omni/E000_hu_d2bd2ed6a47debde.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-stron/omni/E000_hu_d2bd2ed6a47debde.jpg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-stron/omni/E000_hu_d2bd2ed6a47debde.jpg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Piktogram - kazuar</title>
-      <link>https://karolinaabb.github.io/projektowanie-graficzne/kazuar-piktogram/</link>
+      <link>http://localhost:1313/projektowanie-graficzne/kazuar-piktogram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-graficzne/kazuar-piktogram/</guid><media:content url="https://karolinaabb.github.io/projektowanie-graficzne/kazuar-piktogram/AZ000_hu_ea36dee9d5588b21.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-graficzne/kazuar-piktogram/</guid><media:content url="http://localhost:1313/projektowanie-graficzne/kazuar-piktogram/AZ000_hu_ea36dee9d5588b21.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-graficzne/kazuar-piktogram/AZ000_hu_ea36dee9d5588b21.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-graficzne/kazuar-piktogram/AZ000_hu_ea36dee9d5588b21.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
   </channel>
