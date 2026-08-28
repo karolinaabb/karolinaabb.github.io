@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Substance 3D Painter on Karolina Boroń - Portfolio</title>
-    <link>http://localhost:1313/tags/substance-painter/</link>
+    <link>https://karolinaabb.github.io/tags/substance-painter/</link>
     <description>Recent content in Substance 3D Painter on Karolina Boroń - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language><atom:link href="http://localhost:1313/tags/substance-painter/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language><atom:link href="https://karolinaabb.github.io/tags/substance-painter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postać high poly 3D</title>
-      <link>http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/</link>
+      <link>https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/</guid><media:content url="http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif" type="image/jpeg"/>
+      <guid>https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/</guid><media:content url="https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;http://localhost:1313/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif&quot; /&gt;
+          &lt;img src=&quot;https://karolinaabb.github.io/grafika-3d/posta%C4%87-high-poly-3d/ZP000_hu_e1ab8f8619627d86.gif&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
   </channel>
