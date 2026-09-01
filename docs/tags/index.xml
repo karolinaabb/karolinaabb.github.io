@@ -2,125 +2,125 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tagi on Karolina Boroń - Portfolio</title>
-    <link>https://karolinaabb.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tagi on Karolina Boroń - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language><atom:link href="https://karolinaabb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adobe After Effects</title>
-      <link>https://karolinaabb.github.io/tags/after-effects/</link>
+      <link>http://localhost:1313/tags/after-effects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/after-effects/</guid><media:content url="https://karolinaabb.github.io/tags/after-effects/A-after-effects-40_hu_48f8eb56f40c83bb.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/after-effects/</guid><media:content url="http://localhost:1313/tags/after-effects/A-after-effects-40_hu_48f8eb56f40c83bb.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/after-effects/A-after-effects-40_hu_48f8eb56f40c83bb.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/after-effects/A-after-effects-40_hu_48f8eb56f40c83bb.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Adobe Illustrator</title>
-      <link>https://karolinaabb.github.io/tags/adobe-illustrator/</link>
+      <link>http://localhost:1313/tags/adobe-illustrator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/adobe-illustrator/</guid><media:content url="https://karolinaabb.github.io/tags/adobe-illustrator/Adobe_Illustrator_CC_icon.svg_hu_3c1fd3189504ac86.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/adobe-illustrator/</guid><media:content url="http://localhost:1313/tags/adobe-illustrator/Adobe_Illustrator_CC_icon.svg_hu_3c1fd3189504ac86.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/adobe-illustrator/Adobe_Illustrator_CC_icon.svg_hu_3c1fd3189504ac86.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/adobe-illustrator/Adobe_Illustrator_CC_icon.svg_hu_3c1fd3189504ac86.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Adobe InDesign</title>
-      <link>https://karolinaabb.github.io/tags/adobe-indesign/</link>
+      <link>http://localhost:1313/tags/adobe-indesign/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/adobe-indesign/</guid><media:content url="https://karolinaabb.github.io/tags/adobe-indesign/Adobe_InDesign_CC_icon.svg_hu_b1cc667f661b2d5b.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/adobe-indesign/</guid><media:content url="http://localhost:1313/tags/adobe-indesign/Adobe_InDesign_CC_icon.svg_hu_b1cc667f661b2d5b.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/adobe-indesign/Adobe_InDesign_CC_icon.svg_hu_b1cc667f661b2d5b.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/adobe-indesign/Adobe_InDesign_CC_icon.svg_hu_b1cc667f661b2d5b.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Adobe Photoshop</title>
-      <link>https://karolinaabb.github.io/tags/adobe-photoshop/</link>
+      <link>http://localhost:1313/tags/adobe-photoshop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/adobe-photoshop/</guid><media:content url="https://karolinaabb.github.io/tags/adobe-photoshop/Adobe_Photoshop_CC_icon.svg_hu_5f5bce4d1fe45502.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/adobe-photoshop/</guid><media:content url="http://localhost:1313/tags/adobe-photoshop/Adobe_Photoshop_CC_icon.svg_hu_5f5bce4d1fe45502.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/adobe-photoshop/Adobe_Photoshop_CC_icon.svg_hu_5f5bce4d1fe45502.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/adobe-photoshop/Adobe_Photoshop_CC_icon.svg_hu_5f5bce4d1fe45502.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Blender</title>
-      <link>https://karolinaabb.github.io/tags/blender/</link>
+      <link>http://localhost:1313/tags/blender/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/blender/</guid><media:content url="https://karolinaabb.github.io/tags/blender/pngegg%281%29_hu_22c83c1d9dfdcd04.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/blender/</guid><media:content url="http://localhost:1313/tags/blender/pngegg%281%29_hu_22c83c1d9dfdcd04.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/blender/pngegg(1)_hu_22c83c1d9dfdcd04.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/blender/pngegg(1)_hu_22c83c1d9dfdcd04.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Figma</title>
-      <link>https://karolinaabb.github.io/tags/figma/</link>
+      <link>http://localhost:1313/tags/figma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/figma/</guid><media:content url="https://karolinaabb.github.io/tags/figma/Figma-logo.svg_hu_d3b49d63e0982b71.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/figma/</guid><media:content url="http://localhost:1313/tags/figma/Figma-logo.svg_hu_d3b49d63e0982b71.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/figma/Figma-logo.svg_hu_d3b49d63e0982b71.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/figma/Figma-logo.svg_hu_d3b49d63e0982b71.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Godot</title>
-      <link>https://karolinaabb.github.io/tags/godot/</link>
+      <link>http://localhost:1313/tags/godot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/godot/</guid><media:content url="https://karolinaabb.github.io/tags/godot/A-godot_hu_12dd8ff16683d4de.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/godot/</guid><media:content url="http://localhost:1313/tags/godot/A-godot_hu_12dd8ff16683d4de.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/godot/A-godot_hu_12dd8ff16683d4de.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/godot/A-godot_hu_12dd8ff16683d4de.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Krita</title>
-      <link>https://karolinaabb.github.io/tags/krita/</link>
+      <link>http://localhost:1313/tags/krita/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/krita/</guid><media:content url="https://karolinaabb.github.io/tags/krita/0-krita-trim_hu_d8ad9e0d0187b36e.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/krita/</guid><media:content url="http://localhost:1313/tags/krita/0-krita-trim_hu_d8ad9e0d0187b36e.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/krita/0-krita-trim_hu_d8ad9e0d0187b36e.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/krita/0-krita-trim_hu_d8ad9e0d0187b36e.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Marvelous Designer</title>
-      <link>https://karolinaabb.github.io/tags/marvelous-designer/</link>
+      <link>http://localhost:1313/tags/marvelous-designer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/marvelous-designer/</guid><media:content url="https://karolinaabb.github.io/tags/marvelous-designer/A-marvelous-designer_hu_13231d0301aa87fe.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/marvelous-designer/</guid><media:content url="http://localhost:1313/tags/marvelous-designer/A-marvelous-designer_hu_13231d0301aa87fe.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/marvelous-designer/A-marvelous-designer_hu_13231d0301aa87fe.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/marvelous-designer/A-marvelous-designer_hu_13231d0301aa87fe.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Substance 3D Painter</title>
-      <link>https://karolinaabb.github.io/tags/substance-painter/</link>
+      <link>http://localhost:1313/tags/substance-painter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/substance-painter/</guid><media:content url="https://karolinaabb.github.io/tags/substance-painter/A-substance-painter_hu_ecd8503db350b0c4.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/substance-painter/</guid><media:content url="http://localhost:1313/tags/substance-painter/A-substance-painter_hu_ecd8503db350b0c4.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/substance-painter/A-substance-painter_hu_ecd8503db350b0c4.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/substance-painter/A-substance-painter_hu_ecd8503db350b0c4.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Unity</title>
-      <link>https://karolinaabb.github.io/tags/unity/</link>
+      <link>http://localhost:1313/tags/unity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/unity/</guid><media:content url="https://karolinaabb.github.io/tags/unity/U_Cube_1C_White_hu_6ace7a0f3935bd41.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/unity/</guid><media:content url="http://localhost:1313/tags/unity/U_Cube_1C_White_hu_6ace7a0f3935bd41.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/unity/U_Cube_1C_White_hu_6ace7a0f3935bd41.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/unity/U_Cube_1C_White_hu_6ace7a0f3935bd41.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Unreal Engine</title>
-      <link>https://karolinaabb.github.io/tags/unreal-engine/</link>
+      <link>http://localhost:1313/tags/unreal-engine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/unreal-engine/</guid><media:content url="https://karolinaabb.github.io/tags/unreal-engine/ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7_hu_81dee68d58a91e30.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/unreal-engine/</guid><media:content url="http://localhost:1313/tags/unreal-engine/ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7_hu_81dee68d58a91e30.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/unreal-engine/ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7_hu_81dee68d58a91e30.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/unreal-engine/ue-logotype-2023-vertical-white-1686x2048-bbfded26daa7_hu_81dee68d58a91e30.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>ZBrush</title>
-      <link>https://karolinaabb.github.io/tags/zbrush/</link>
+      <link>http://localhost:1313/tags/zbrush/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/tags/zbrush/</guid><media:content url="https://karolinaabb.github.io/tags/zbrush/A-ZBrush-logo_hu_82a7b6f9b53f1a2b.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/tags/zbrush/</guid><media:content url="http://localhost:1313/tags/zbrush/A-ZBrush-logo_hu_82a7b6f9b53f1a2b.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/tags/zbrush/A-ZBrush-logo_hu_82a7b6f9b53f1a2b.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/tags/zbrush/A-ZBrush-logo_hu_82a7b6f9b53f1a2b.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
   </channel>

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adobe After Effects on Karolina Boroń - Portfolio</title>
-    <link>https://karolinaabb.github.io/tags/after-effects/</link>
+    <link>http://localhost:1313/tags/after-effects/</link>
     <description>Recent content in Adobe After Effects on Karolina Boroń - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language><atom:link href="https://karolinaabb.github.io/tags/after-effects/index.xml" rel="self" type="application/rss+xml" />
+    <language>pl</language><atom:link href="http://localhost:1313/tags/after-effects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Animacja postaci - emocje</title>
-      <link>https://karolinaabb.github.io/animacja/character-expressions/</link>
+      <link>http://localhost:1313/animacja/character-expressions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/character-expressions/</guid><media:content url="https://karolinaabb.github.io/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/character-expressions/</guid><media:content url="http://localhost:1313/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/character-expressions/CE002_hu_db5fe44305780f68.jpeg&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>DishDash - UI wyścigowej gry mobilnej</title>
-      <link>https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/</link>
+      <link>http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/</guid><media:content url="https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/</guid><media:content url="http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/projektowanie-stron/dishdash-gra-mobilna/DD000_hu_f5781da91bb5447d.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
     <item>
       <title>Plakat - Jan Czochralski</title>
-      <link>https://karolinaabb.github.io/animacja/poster-czochralski/</link>
+      <link>http://localhost:1313/animacja/poster-czochralski/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://karolinaabb.github.io/animacja/poster-czochralski/</guid><media:content url="https://karolinaabb.github.io/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png" type="image/jpeg"/>
+      <guid>http://localhost:1313/animacja/poster-czochralski/</guid><media:content url="http://localhost:1313/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://karolinaabb.github.io/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png&quot; /&gt;
+          &lt;img src=&quot;http://localhost:1313/animacja/poster-czochralski/JC001-0_hu_9501453645fd62c.png&quot; /&gt;
           &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
         </description></item>
   </channel>
